@@ -74,7 +74,7 @@ First use the `title` method to capitalize the first letter of each word in "art
 
 
 ```python
-"art vandelay" # 'Art Vandelay'
+"art vandelay".title() # 'Art Vandelay'
 ```
 
 
@@ -84,11 +84,11 @@ First use the `title` method to capitalize the first letter of each word in "art
 
 
 
-Now let's uppercase all of the letters of "Ceo".
+Now let's capitalize all of the letters of "Ceo".
 
 
 ```python
-"Ceo" # 'CEO'
+"Ceo".upper() # 'CEO'
 ```
 
 
@@ -102,13 +102,13 @@ Now write a method that get answer a question about our email addresses.  Every 
 
 
 ```python
-"art.vandelay@vandelay.cop" # False
+"art.vandelay@vandelay.cop".endswith(".com")
 ```
 
 
 
 
-    'art.vandelay@vandelay.cop'
+    False
 
 
 
@@ -116,13 +116,13 @@ As you can see, the website "vandelay.com" is not preceded by `"www."`.  Use the
 
 
 ```python
-'vandelay.com' # 'www.vandelay.com'
+'www.' + 'vandelay.com' # 'www.vandelay.com'
 ```
 
 
 
 
-    'vandelay.com'
+    'www.vandelay.com'
 
 
 
@@ -132,28 +132,33 @@ Finally, Mr. Vandelay gave us his phone number, but he actually has a second num
 
 
 ```python
-"7285553334" # 7285553335
+int("7285553334") + 1 # 7285553335
 ```
 
 
 
 
-    '7285553334'
+    7285553335
 
 
 
 
 ```python
-"7285553334" # 7285553336
+int("7285553334") + 2 # 7285553336
 ```
 
 
 
 
-    '7285553334'
+    7285553336
 
 
 
 ### Summary
 
 Your first lab done!  Sweet.  In this lab, you practiced working with string methods to operate on and answer questions about strings.  You wrote methods that return Booleans.  And you changed strings to an `int` to then perform addition.  So much of working with data, is ensuring that our data is properly formatted so we can then operate on it and in this lab you saw how to use code to just that.
+
+
+```python
+
+```
