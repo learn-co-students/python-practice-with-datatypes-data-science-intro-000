@@ -8,6 +8,8 @@ In the past few lessons, we have learned about working with different types of d
 In this lesson we'll imagine that you just stopped by an Python programming conference and met a few people there.  You exchanged some information with a very industrious person who you met, and want to use your programming skills to format this information correctly.  
 
 ### Learning Objectives
+* Manipulate strings with built-in methods
+* Practice coercing data types and changing numbers
 
 ### Here to mingle 
 
@@ -80,7 +82,7 @@ First use the `title` method to capitalize the first letter of each word in "art
 
 
 
-    'Art Vandelay'
+    'art vandelay'
 
 
 
@@ -94,11 +96,11 @@ Now let's uppercase all of the letters of "Ceo".
 
 
 
-    'CEO'
+    'Ceo'
 
 
 
-Now write a method that get answer a question about our email addresses.  Every email address should end with ".com".  Use your knowledge of string methods to check if the email address ends with ".com" and return `True` or `False` accordingly. 
+Now write a method that answers a question about our email addresses.  Every email address should end with ".com".  Use your knowledge of string methods to check if the email address ends with ".com" and return `True` or `False` accordingly. 
 
 
 ```python
