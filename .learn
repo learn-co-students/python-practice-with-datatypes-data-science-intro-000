@@ -1,1 +1,9 @@
 jupyter_notebook: true
+tags:
+  - jupyter
+  - python
+
+languages:
+  - python
+
+resources: 0

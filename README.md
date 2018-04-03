@@ -157,8 +157,3 @@ int("7285553334") + 2 # 7285553336
 ### Summary
 
 Your first lab done!  Sweet.  In this lab, you practiced working with string methods to operate on and answer questions about strings.  You wrote methods that return Booleans.  And you changed strings to an `int` to then perform addition.  So much of working with data, is ensuring that our data is properly formatted so we can then operate on it and in this lab you saw how to use code to just that.
-
-
-```python
-
-```
