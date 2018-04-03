@@ -23,25 +23,25 @@ So as data scientists, we often need to clean and organize data before we can ma
 
 ### Solving our first lab
 
-This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  Let's do the first one together.  
+This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
 For example, let's say we want to capitalize all of the letters of "art vandlay".  We'll see the following:
 
 
 ```python
-"art vandelay"
+"art vandelay" # "ART VANDELAY"
 ```
 
 Notice that there is no output below the gray code above.  This is because Jupyter notebooks do not automatically run our code - so they do not automatically know the output.  To display the output, we must **run** the code by clicking on the gray cell and then pressing shift + enter.  Let's try it in the cell above and see our output appear below.
 
-Ok, once we see the output take a look at the cell below with the hash tag to the right of the string, `'hello'`.  This is a comment.  Comments are used for programmers to annotate their code, but a comment has no impact on the code.  See this by running the cell below (again, press shift + enter).
+Ok, once we see the output take a look at the cell below with the hash tag to the right of the string, `'hello'`.  This is a comment like the above.  Comments are used for programmers to annotate their code, but a comment has no impact on the code.  We can see this by running the cell below (again, press shift + enter).
 
 
 ```python
 'hello' ### whattttt
 ```
 
-After pressing shift+enter on the cell above, we see that Python happily ignores the comment. So here (and in future labs), a comment will be provided to indicate what we should see as the return value of our code. When we press shift+enter, and the output below matches the comment to the right of our code, we did it correctly.
+After pressing shift+enter on the cell above, we see that still Python happily ignores our comment. So here (and in future labs), a comment will be provided to indicate what we should see as the return value of our code. When we press shift+enter, and the output below matches the comment to the right of our code, we did it correctly.
 
 > In future labs, Learn will check our code to ensure that we did it correctly.  But for our first lab, this works fine.
 
