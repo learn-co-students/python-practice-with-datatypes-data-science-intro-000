@@ -1,7 +1,7 @@
 jupyter_notebook: true
 
 tags:
-  - jupyter_notebook
+  - jupyter
   - python
 
 languages:
