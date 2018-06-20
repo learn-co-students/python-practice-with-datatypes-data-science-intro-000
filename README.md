@@ -17,7 +17,7 @@ The next morning we take out the business card, ready to format it using our pro
 
 ![](https://learn-verified.s3.amazonaws.com/data-science-assets/biz-card-mistakes.jpg)
 
-Yea, Mr. Vandelay may not be the best person to get to know or the best at designing business cards, but like Mr. Vandelay, we know that people misenter information on forms all the time.
+Yeah, Mr. Vandelay may not be the best person to get to know or the best at designing business cards, but like Mr. Vandelay, we know that people enter incorrect information on forms all the time.
 
 So as data scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
@@ -75,7 +75,7 @@ Next, write a method that answers a question about our email addresses.  Every e
 "art.vandelay@vandelay.co" # False
 ```
 
-As you can see below, the website "vandelay.com" is not preceded by `"www."`. We can perform what is called string interpolation to fix this! Use the plus sign, `'+'`, to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
+As you can see below, the website "vandelay.com" is not preceded by `"www."`. We can perform what is called string concatenation to fix this! Use the plus sign, `'+'`, to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
 
 ```python
@@ -84,7 +84,7 @@ As you can see below, the website "vandelay.com" is not preceded by `"www."`. We
 
 ### Working with numbers
 
-Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the excepion of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
+Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
 
 ```python
@@ -98,4 +98,4 @@ Finally, Mr. Vandelay gave us his phone number, but he actually has two other ph
 
 ### Summary
 
-Our first lab is done! Sweet. In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to intergers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
+Our first lab is done! Sweet. In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to integers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
