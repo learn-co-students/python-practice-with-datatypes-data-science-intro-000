@@ -1,0 +1,30 @@
+        
+SyntaxError: multiple statements found while compiling a single statement
+>>> "art vandelay".upper() # 'ART VANDELAY'
+'ART VANDELAY'
+>>> "art vandelay".upper()
+'ART VANDELAY'
+>>> "ceo".upper()
+'CEO'
+>>> 'hello'
+'hello'
+>>> 'hello'
+'hello'
+>>> clear
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    clear
+NameError: name 'clear' is not defined
+>>> "art vandelay".title() # 'Art Vandelay'
+'Art Vandelay'
+>>> "art.vandelay@vandelay.co" # False
+'art.vandelay@vandelay.co'
+>>> "art.vandelay@vandelay.co".endswith(".com")
+False
+>>> 'www.'+'vandelay.com' # 'www.vandelay.com'
+'www.vandelay.com'
+>>> int("7285553334")+1
+7285553335
+>>> int("7285553334")+2
+7285553336
+>>> 
