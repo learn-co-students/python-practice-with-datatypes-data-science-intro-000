@@ -57,22 +57,6 @@ Ok, once we see the output take a look at the cell below with the hash tag to th
 
 After pressing shift+enter on the cell above, we see that still Python happily ignores our comment. So here (and in future labs), a comment will be provided to indicate what we should see as the return value of our code. When we press shift+enter, and the output below matches the comment to the right of our code, we did it correctly.
 
-> In future labs, Learn will check our code to ensure that we did it correctly.  But for our first lab, this works fine.
-
-To get our output to match the comment we will change it to the following:
-
-
-```python
-"art vandelay".upper() # 'ART VANDELAY'
-```
-
-
-
-
-    'ART VANDELAY'
-
-
-
 ### Get going with strings
 
 First use the `title` method to capitalize the first letter of each word in "art vandelay"`.
