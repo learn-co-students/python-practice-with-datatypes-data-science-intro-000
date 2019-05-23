@@ -25,13 +25,14 @@ Here's a simple example of how you might go about doing this:
 
 
 ```python
-"art vandelay" # "ART VANDELAY"
+name = "art vandelay" # "ART VANDELAY"
+name.upper()
 ```
 
 
 
 
-    'art vandelay'
+    'ART VANDELAY'
 
 
 
@@ -119,25 +120,25 @@ Finally, Mr. Vandelay gave us his phone number. Extract the area code by selecti
 
 
 ```python
-int("7285553334") + 1 # 7285553335
+"7285553334"[:3] # 728
 ```
 
 
 
 
-    7285553335
+    '728'
 
 
 
 
 ```python
-int("7285553334") + 2 # 7285553336
+"7285553334"[:3] # 728
 ```
 
 
 
 
-    7285553336
+    '728'
 
 
 
