@@ -29,6 +29,20 @@ name = "art vandelay" # "ART VANDELAY"
 name.upper()
 ```
 
+
+```python
+# __SOLUTION__ 
+name = "art vandelay" # "ART VANDELAY"
+name.upper()
+```
+
+
+
+
+    'ART VANDELAY'
+
+
+
 If you haven't already, put your cursor into the cell above and press `shift + enter` to run the code in the cell. You should see an updated output produced by the `.upper()` string method. 
 
 Another important note is the hashtag `#`. In python, hashtags indicate a comment. Comments are notes used to provide additional information but are ignored by the computer when running the code. 
@@ -37,6 +51,19 @@ Another important note is the hashtag `#`. In python, hashtags indicate a commen
 ```python
 'hello' ### whattttt
 ```
+
+
+```python
+# __SOLUTION__ 
+'hello' ### whattttt
+```
+
+
+
+
+    'hello'
+
+
 
 After pressing shift+enter on the cell above, you'll see that Python ignores the comment. In Flatiron coding labs, a comment will be provided to indicate what you are aiming to have the code return. This allows you to then easily check your answer upon running your code.
 
@@ -51,12 +78,38 @@ Use the `title` method to capitalize the first letter of each word in "art vande
 "art vandelay" # 'Art Vandelay'
 ```
 
+
+```python
+# __SOLUTION__ 
+"art vandelay".title() # 'Art Vandelay'
+```
+
+
+
+
+    'Art Vandelay'
+
+
+
 Now use the `uppercase` method to capitalize all of the letters of "Ceo".
 
 
 ```python
 "Ceo" # 'CEO'
 ```
+
+
+```python
+# __SOLUTION__ 
+"Ceo".upper() # 'CEO'
+```
+
+
+
+
+    'CEO'
+
+
 
 Next, write a method that verifies whether an email addresses is valid. To make this introductory example simple, assume that every email address should end with ".com".  With that, use your knowledge of string methods to check if the email address ends with ".com" and return `True` or `False` accordingly. 
 
@@ -65,12 +118,38 @@ Next, write a method that verifies whether an email addresses is valid. To make 
 "art.vandelay@vandelay.co" # False
 ```
 
+
+```python
+# __SOLUTION__ 
+"art.vandelay@vandelay.co".endswith('.com') # False
+```
+
+
+
+
+    False
+
+
+
 As you can see below, the website "vandelay.com" is not preceded by `"www."`. You can perform string concatenation to fix this! string concatenation allows you to join two strings. It works just like numerical addition. For example, ```"This is the start" + "and this is the end"``` would return ```"This is the start and this is the end"```. Use string concatenation to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
 
 ```python
 'vandelay.com' # 'www.vandelay.com'
 ```
+
+
+```python
+# __SOLUTION__ 
+'www.' + 'vandelay.com' # 'www.vandelay.com'
+```
+
+
+
+
+    'www.vandelay.com'
+
+
 
 ### String Slicing
 
@@ -85,6 +164,32 @@ Finally, Mr. Vandelay gave us his phone number. Extract the area code by selecti
 ```python
 "7285553334" # 728
 ```
+
+
+```python
+# __SOLUTION__ 
+"7285553334"[:3] # 728
+```
+
+
+
+
+    '728'
+
+
+
+
+```python
+# __SOLUTION__ 
+"7285553334"[:3] # 728
+```
+
+
+
+
+    '728'
+
+
 
 ### Summary
 
