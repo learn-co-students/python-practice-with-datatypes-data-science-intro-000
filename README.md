@@ -72,7 +72,7 @@ Use the `title` method to capitalize the first letter of each word in "art vande
 
 
 
-Now use the `uppercase` method to capitalize all of the letters of "Ceo".
+Now use the `upper` method to capitalize all of the letters of "Ceo".
 
 
 ```python
