@@ -5,7 +5,7 @@
 
 In the past few lessons, you learned about working with different types of data in Python: strings, numbers (ints and floats), and booleans.  Now, you'll put that knowledge into action.
 
-Imagine that you're at a business event and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. Here, you'll use your programming skills to format this information correctly. 
+Imagine that you're at a business event and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. Here, you'll use your programming skills to format this information correctly.  
 
 ### Learning Objectives
 * Manipulate strings with built-in methods
